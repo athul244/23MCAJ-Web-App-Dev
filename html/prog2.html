@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        form{
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Form</h1>
+        <label>Enter name: <input type="text" placeholder="Enter your name"></label><br><br>
+        <label>Enter email: <input type="email" placeholder="Enter your email"></label><br><br>
+        <label>Enter Phone: <input type="text" placeholder="Enter your phone"></label><br><br>
+        <label>Enter password: <input type="password"></label><br><br>
+        <label>Select qualification:
+            <select>
+                <option>High School</option>
+                <option>Bachelor's Degree</option>
+                <option>Master's Degree</option>
+                <option>PhD</option>
+            </select>
+        </label><br><br>
+        <label>Select gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+        </label><br><br>
+        <label>Message:</label><br>
+        <textarea placeholder="Enter your message" rows="5" cols="30"></textarea>
+        <br><br>
+
+        <label>Date of birth: <input type="date"></label><br><br>
+
+        <label>Upload a resume: <input type="file"></label><br><br>
+
+        <label>Choose your favorite color: <input type="color"></label><br><br>
+
+        <label>Subscribe to newsletter: <input type="checkbox"></label><br><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
